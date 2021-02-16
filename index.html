@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kosh task app</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+<div class="container"> 
+<header>
+  <div class="container-header">
+    <div class="form-body">
+      <h3>KOSH TASK APP</h3>
+    </div>
+    <form class="form-input">
+      <input type="text" id="text-input" placeholder="Enter your todo">
+      <select class="select">
+        <option value="All">ALL</option>
+  
+        <option value= "Uncompleted">UNCOMPLETED</option>
+
+        <option value="Completed">COMPLETED</option> 
+      </select>
+      <input type="submit" value="ADD TASK" id="submit">
+    </form>
+  </div>
+</header>
+  <section>
+    <div class="form-group">
+      <h3>TASK</h3>
+      <input type="text" id="filter-text" placeholder="Filter through your todo">
+      
+    </div>
+    
+  </section>
+  <section>
+    <ul class="ul-collection">
+   
+    </ul>
+  <input type="submit" value="CLEAR TASK" id="filter-submit"> 
+
+  </section>
+</div>
+
+
+
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="app.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,171 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+body{
+  background-color: #fafafa;
+}
+
+ul{
+  list-style: none;
+  background-color: white;
+  
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  color: rgb(2, 2, 2);
+}
+.container{
+  width: 850px;
+  margin: 10rem auto;
+  background-color: rgb(35, 35, 85);
+  
+}
+section{
+  padding: 0.5rem 1.5rem;
+}
+
+h1,h2,h3,h4,h5{
+  color: #fafafa;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#submit{
+  color:white;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 0.6rem;
+  display: block;
+  margin: 1rem auto;
+  width: 30%;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-style: oblique;
+  cursor: pointer;
+}
+
+input{
+  width: 80%;
+  height: 3rem;
+  margin: 0 1.5rem;
+  padding-left: 1.5rem;
+  color: rgb(1, 1, 48);
+  border-color: white;
+  border-style: none;
+  font-size: medium;
+  outline: none;
+}
+
+#filter-text{
+  width: 50%;
+  margin: 0 20rem;
+  
+}
+select{
+  height: 3rem;
+  outline: none;
+  border: none;
+  
+}
+.form-body h3{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'aldrich', sans-serif;
+  color: rgb(34, 221, 34);
+  padding: 3rem 30rem;
+  font-style: italic;
+
+}
+.form-group h3{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'aldrich', sans-serif;
+  color: rgb(34, 221, 34);
+  padding: 3rem 40rem;
+  font-style: italic;
+}
+
+#filter-submit{
+  color:white;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 0.6rem;
+  display: block;
+  margin: 1rem auto;
+  width: 30%;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-style: oblique;
+  cursor: pointer;
+}
+.ul-collection-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 5rem 1.2rem 0;
+  transition: all 1s ease;
+  border-bottom: 1px solid green;
+}
+
+.ul-col-p{
+  flex: 1;
+  padding-left: 3rem;
+}
+
+.ul-link-mark{
+  flex: 0;
+  margin-right: 2rem;
+}
+
+.ul-link-delete{
+  flex: 0
+  
+}
+ion-icon{
+  color:rgb(6, 248, 6);
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ctr{
+  color: red;
+}
+
+.input-err{
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding-left: 30%;
+  padding-top: 1rem;
+  
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+.transformation{
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}
